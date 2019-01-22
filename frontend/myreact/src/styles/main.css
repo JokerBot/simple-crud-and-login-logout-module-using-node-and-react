@@ -1,0 +1,177 @@
+.house,
+.house__sprite {
+  height: 240px;
+  
+}
+.house__sprite {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.house{
+    margin-bottom: 30px;
+       
+}
+.house__name {
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+    /* pointer-events: none; */
+  }
+
+
+  .house__item{
+
+    padding: 0;
+        list-style: none;
+  }
+
+  .house {
+    position: relative;
+    z-index: 20000;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.container-fluid{
+
+margin-top: 50px;
+}
+  
+
+
+
+
+#new_house {
+
+  background-color: darkgray;
+  height: 300px;
+  width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
+  margin-top: 100px;
+
+}
+
+
+
+.mt-20{
+
+  margin-top: 20px;
+}
+
+#new_name{
+
+  margin-top: 50px !important;
+}
+
+
+
+/* HEADER CSS */
+
+#add_new_div{
+
+  width: 300px;
+  float: right;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 150px;
+
+}
+
+
+
+#header_div{
+  width: 100%;
+  background-color: darkgray;
+}
+
+#logo {
+
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+
+}
+
+#add_listing{
+  float:right;
+  border-radius: 5px;
+  height: 40px;
+  background-color: lightgray;
+}
+
+
+
+
+
+
+/* HOUSE DETAILED CSS*/
+
+#house_tools {
+
+  float: right;
+  width: 20%;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+
+}
+
+
+
+#house_name{
+  margin-bottom: 20px;
+  float: left;
+  width: 80%;
+
+}
+
+
+#house_img_large {
+
+  height: 300px;
+}
+
+#house_content {
+
+  margin-top: 30px;
+
+}
+
+#house_name span{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+}
+
+
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.85);
+  z-index: 10000;
+}
+
+.popup {
+  width: 33.333333%;
+  padding: 15px;
+  left: 0;
+  margin-left: 33.333333%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: 30%;
+  box-shadow: 5px 5px 5px #000;
+  z-index: 10001;
+}
